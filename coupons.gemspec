@@ -4,8 +4,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.1'
   spec.name          = 'coupons'
   spec.version       = Coupons::VERSION
-  spec.authors       = ['Nando Vieira']
-  spec.email         = ['fnando.vieira@gmail.com']
+  spec.authors       = ['Jacob']
+  spec.email         = ['jacob.prince95@gmail.com']
   spec.summary       = 'A simple discount coupon generator for Rails.'
   spec.description   = spec.summary
   spec.homepage      = 'http://rubygems.org/gems/coupons'
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>= 4.2.0', '< 5.0.0'
+  spec.add_dependency 'rails', '< 5.0.0'
   spec.add_dependency 'autoprefixer-rails'
   spec.add_dependency 'sass-rails'
   spec.add_dependency 'page_meta'
